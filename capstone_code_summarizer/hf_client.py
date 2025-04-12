@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_URL = "https://api-inference.huggingface.co/models/Salesforce/codet5-base-multi-sum"
+API_URL = "https://api-inference.huggingface.co/models/facebook/bart-large-cnn"
 headers = {
     "Authorization": f"Bearer {os.getenv('HUGGINGFACE_API_KEY')}",
     "Accept": "application/json"
