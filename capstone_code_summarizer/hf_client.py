@@ -6,7 +6,7 @@ load_dotenv()
 
 API_URL = "https://api-inference.huggingface.co/models/Salesforce/codet5-base-multi-sum"
 headers = {
-    "Authorization": f"Bearer {os.getenv('HF_API_TOKEN')}",
+    "Authorization": f"Bearer {os.getenv('HUGGINGFACE_API_KEY')}",
     "Accept": "application/json"
 }
 
